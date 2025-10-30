@@ -17,5 +17,5 @@ class Persona{
 }
 
 const pedro = new Persona('Pedro', 17);
-miCarro.mayorEdad();
-miCarro.mostrar();
+pedro.mayorEdad();
+pedro.mostrar();
