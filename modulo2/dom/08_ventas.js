@@ -9,7 +9,10 @@ formulario.addEventListener('submit', (e) => {
   const precio = parseFloat(document.getElementById('precio').value.trim());
 
   if (direccion && descripcion && !isNaN(precio)) {
-    const nuevaCasa = { id: Date.now(), direccion, descripcion, precio };
+    const nuevaCasa = { id: Date.now(), 
+      direccion, 
+      descripcion, 
+      precio };
     casas.push(nuevaCasa);
     renderizarCasa(nuevaCasa);
     formulario.reset();
