@@ -1,17 +1,14 @@
 
-import ParentLoginForm from './props/ParentLoginForm';
+import ListaUsuariosPaginado from "./formularios/ListaUsuariosPaginado";
 
 
 
-
-function App() {
-  
+export default function App() {
+ 
 
   return (
     <>
-      <ParentLoginForm/>
+      <ListaUsuariosPaginado/>
     </>
   );
 }
-
-export default App;
